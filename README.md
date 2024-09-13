@@ -1,14 +1,56 @@
-# andro-hunting
-**KITRI White Hat School 2nd**  
-Team Andromeda's mobile app bug hunting project repository.  
+![그림16](https://github.com/user-attachments/assets/466782cb-32c3-4f01-93e2-ef4c0ec90c88)
 
-### Team Members
-- [Jiwon Kang](https://github.com/J1W0N-1209) (PM)
-- [Geunho Kim](https://github.com/Gina-G-Kim)
-- [Woojin Kim](https://github.com/waivey07)
-- [Geonmo Ryu](https://github.com/d3vh4cks)
-- [Donggun Lee](https://github.com/dlehdrjsgg)
-- [Dongju Yoon](https://github.com/poet0246)
-- [Eunmin Park](https://github.com/73eme37)
-- [Juwon Kim](https://github.com/arrester) (Mentor)
-- [Hyunji Kwon](https://github.com/Kwon-Hyunji) (PL)
+# Description
+---
+**andro-hunting** is an automated tool designed to analyze **Android's Deeplink Webview Hijacking Vulnerability**.
+
+# Installation
+---
+1. `python3 -m venv venv` -> Create a virtual environment.
+2. `source venv/bin/activate` -> Activate the virtual environment.
+3. `pip install -r requirements.txt` -> Install required packages.
+4. `cp .env.example .env` -> Create a `.env` file and set your URL.
+5. `cp applist.txt.example applist.txt` -> Write the app's package names in `applist.txt`.
+6. Now You can run the script!
+
+**System Requirements:**
+- Python 3
+- ADB (must be connected to only one ADB server)
+- Rooted device or emulator (for `sub.py`)
+- Frida (for `sub.py`)
+
+# Usage
+---
+Refer to our [wiki page](https://www.example.com/) for detailed usage instructions.
+
+## Demos:
+- MAIN
+- SUB
+- CHEATSHEET
+
+## Using main.py
+---
+The primary purpose of **Andro-Hunting** is to automate the WebView hijacking Proof of Concept (PoC) through large-scale Android app analysis. It is highly effective for mobile bug hunting. You can modify deep link URL parameters to include webhooks site, Discord server addresses, etc., to receive automatic alerts.
+
+- Parse and analyze APK files
+- Extract deeplink information and create various URL combinations
+- Automate WebView hijacking PoC
+
+## Using sub.py
+---
+sub.py is a tool designed to research attack vector expansion based on the app information analyzed by `main.py`. It allows automatic deeplink testing, bypassing XSS filters, and provides functionality for log analysis and method hooking for deeplink, WebView and JavaScript Interface methods.
+
+- Automatic XSS testing
+- Save dumpsys and logcat logs on deeplink invocation
+- Automatic deeplink, WebView and JavaScript Interface methods hooking
+
+# Screenshots
+---
+
+- **DeepLink/WebView/JSI Monitoring**
+![xss_test](https://github.com/user-attachments/assets/de6172d0-6b79-4903-9625-24cb16845394)
+
+- **XSS Testing** 
+![frida_hook](https://github.com/user-attachments/assets/928d95d8-38ba-44c8-8c73-4e536a731483)
+
+
