@@ -18,6 +18,7 @@
 - Rooted device or emulator (for `sub.py`)
 - Frida (for `sub.py`)
 
+
 ![image](https://github.com/user-attachments/assets/af572d40-fbe1-4e44-962a-9a37822bbf89)
 
 # Usage
