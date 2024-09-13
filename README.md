@@ -19,7 +19,7 @@
 - Frida (for `sub.py`)
 
 # Usage
-Refer to our [wiki page](https://www.example.com/) for detailed usage instructions.
+Refer to our [wiki page](https://github.com/WHS-Andromeda/andro_hunting.wiki.git) for detailed usage instructions.
 
 ## Demos:
 - MAIN
