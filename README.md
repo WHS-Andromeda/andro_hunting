@@ -1,11 +1,10 @@
-![그림16](https://github.com/user-attachments/assets/466782cb-32c3-4f01-93e2-ef4c0ec90c88)
+
+![그림16 (1)](https://github.com/user-attachments/assets/dd7cc69c-8cbb-4ca4-adb3-7e9d7ab17606)
 
 # Description
----
 **andro-hunting** is an automated tool designed to analyze **Android's Deeplink Webview Hijacking Vulnerability**.
 
 # Installation
----
 1. `python3 -m venv venv` -> Create a virtual environment.
 2. `source venv/bin/activate` -> Activate the virtual environment.
 3. `pip install -r requirements.txt` -> Install required packages.
@@ -20,7 +19,6 @@
 - Frida (for `sub.py`)
 
 # Usage
----
 Refer to our [wiki page](https://www.example.com/) for detailed usage instructions.
 
 ## Demos:
@@ -29,7 +27,6 @@ Refer to our [wiki page](https://www.example.com/) for detailed usage instructio
 - CHEATSHEET
 
 ## Using main.py
----
 The primary purpose of **Andro-Hunting** is to automate the WebView hijacking Proof of Concept (PoC) through large-scale Android app analysis. It is highly effective for mobile bug hunting. You can modify deep link URL parameters to include webhooks site, Discord server addresses, etc., to receive automatic alerts.
 
 - Parse and analyze APK files
@@ -37,7 +34,6 @@ The primary purpose of **Andro-Hunting** is to automate the WebView hijacking Pr
 - Automate WebView hijacking PoC
 
 ## Using sub.py
----
 sub.py is a tool designed to research attack vector expansion based on the app information analyzed by `main.py`. It allows automatic deeplink testing, bypassing XSS filters, and provides functionality for log analysis and method hooking for deeplink, WebView and JavaScript Interface methods.
 
 - Automatic XSS testing
@@ -45,12 +41,13 @@ sub.py is a tool designed to research attack vector expansion based on the app i
 - Automatic deeplink, WebView and JavaScript Interface methods hooking
 
 # Screenshots
----
 
-- **DeepLink/WebView/JSI Monitoring**
+**DeepLink/WebView/JSI Monitoring**
+  
 ![xss_test](https://github.com/user-attachments/assets/de6172d0-6b79-4903-9625-24cb16845394)
 
-- **XSS Testing** 
+ **XSS Testing**
+  
 ![frida_hook](https://github.com/user-attachments/assets/928d95d8-38ba-44c8-8c73-4e536a731483)
 
 
