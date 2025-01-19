@@ -16,6 +16,7 @@
 - Python 3
 - ADB (must be connected to only one ADB server)
 - Rooted device or emulator (for `sub.py`)
+- Logged in to Play Store
 - Frida (for `sub.py`)
 
 
